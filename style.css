@@ -280,7 +280,7 @@ li .answer{
 /*per la galleria*/
 .galleria{
     position: relative;
-    height: 70vh;
+    height: 40vh;
     overflow: hidden;
 }
 
@@ -361,7 +361,7 @@ li .answer{
 
 
     .galleria{
-        height: 90vh;
+        height: 70vh;
     }
 
     .grid{
@@ -418,7 +418,7 @@ li .answer{
     }
 
     .galleria{
-        height: 110vh;
+        height: 90vh;
     } 
 
     .grid{
@@ -482,7 +482,7 @@ li .answer{
 
     
     .galleria{
-        height: 110vh;
+        height: 90vh;
     }
 
     .grid{
