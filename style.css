@@ -18,6 +18,10 @@ body {
     flex-direction: column;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 
 /*MENU MOBILE*/
 
@@ -117,6 +121,15 @@ header{
    
 }
 
+/*per il colore dei nomi*/
+.name{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+/*posizionamento foto*/
 .card{
     display: flex;
     flex-direction: column;
@@ -124,11 +137,29 @@ header{
     gap: 8px;
 }
 
+/*cambio colore del nome del membro ad inizio card*/
+.card h2{
+    color: white;
+    text-shadow: 1px 1px 3px black;
 
+}
+
+
+
+/*scritte nella card*/
 .card p{
     margin: 2px 0;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
     font-weight: bold;
+}
+
+li .question{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+li .answer{
+    color:  rgb(35, 49, 85);
 }
 
 /*griglia di contenimento*/
@@ -180,6 +211,7 @@ header{
     color: black;
 }
 
+/*header della storia*/
 .general{
     color: black;
     margin-bottom: 5px;
