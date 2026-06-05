@@ -1,5 +1,4 @@
 
-
 .disco{
     text-align: center;
     margin: 30px;
@@ -89,7 +88,7 @@
     display: block;
 }
     
-ul{
+.categoria-album{
     list-style: none;
     text-align:start;
     display: flex;
@@ -128,7 +127,7 @@ ul{
     margin-bottom: 15px;
 }
 
-a{
+.links a{
     text-decoration: none;
     font-family:'Quicksand', sans-serif;    
     font-weight: bold;
@@ -230,4 +229,5 @@ a{
 
 }
 
+    
     
