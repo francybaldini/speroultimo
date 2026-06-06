@@ -48,13 +48,10 @@ html, body{
 
 .menu-desktop{
     display: none;
-    flex: none;
+    
 }
 
-.menu-desktop a{
-    text-decoration: none;
-    color: white;
-}
+
 
 /*per menu a tendina*/
 .menu{
@@ -159,7 +156,7 @@ li .question{
 }
 
 li .answer{
-    color:  rgb(35, 49, 85);
+    color: rgb(32, 44, 60);
 }
 
 /*griglia di contenimento*/
@@ -237,6 +234,7 @@ li .answer{
     margin: 0;
     font-size: 15px;
     color: #faf8f2;
+    text-shadow: 2px 2px 3px black;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
 }
@@ -275,12 +273,13 @@ li .answer{
 .adrenaline{
     color: black;
     font-weight: bold;
+    text-shadow: none;
 }
 
 /*per la galleria*/
 .galleria{
     position: relative;
-    height: 40vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -302,7 +301,7 @@ li .answer{
 .OpenPopup{
     border: none;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     background-color: rgb(61, 81, 131);
@@ -361,7 +360,7 @@ li .answer{
 
 
     .galleria{
-        height: 70vh;
+        height: 90vh;
     }
 
     .grid{
@@ -418,7 +417,7 @@ li .answer{
     }
 
     .galleria{
-        height: 90vh;
+        height: 110vh;
     } 
 
     .grid{
@@ -482,7 +481,7 @@ li .answer{
 
     
     .galleria{
-        height: 90vh;
+        height: 110vh;
     }
 
     .grid{
